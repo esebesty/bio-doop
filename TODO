@@ -1,0 +1,9 @@
+1) Integrate with BioPerl
+	at least the Bio::DOOP::Sequence objects should be compatible with BioPerl somehow
+	maybe the SequenceFeature objects
+	Cluster and ClusterSubset objects also?
+
+	seq = Bio::DOOP::Sequence->new( -bioperl => '1')
+
+2) Integrate with the TFBS module
+	http://tfbs.genereg.net/
